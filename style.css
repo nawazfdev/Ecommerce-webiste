@@ -61,6 +61,9 @@ body {
    padding: 20px 80px;
    background: #E3E6F3;
    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+   position: sticky;
+   top: 0;
+   right: 0;
 }
 /* nav bar is start */
 #navbar{
@@ -97,4 +100,37 @@ transition: 0.5s ease;
   height: 2px; /* Adjust based on the desired thickness */
   background-color: #088178; /* Adjust to match your color scheme */
   transition: width 0.3s ease;
+}
+/* hero section  */
+#hero{
+background: url('img/hero4.png');
+height: 90vh;
+width: 100%;
+background-size: cover;
+background-position: top 25% right 0;
+padding: 0 80px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+
+}
+#hero h4{
+padding-bottom: 15px;
+}
+
+#hero h1{
+ color: #088178;
+  }
+#hero button{
+
+background: url('img/button.png');
+background-color: transparent;
+color: #088178;
+border: 0;
+padding: 14px 80px 14px 65px;
+background-repeat: no-repeat;
+cursor: pointer;
+font-weight: 700;
+font-size: 15px;
 }
